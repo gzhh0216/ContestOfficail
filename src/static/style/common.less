@@ -1,0 +1,91 @@
+@bg-color: #4fbab4;
+body{
+    background-color: #ececec;
+}
+#layout-header-diy {
+    padding: 0;
+    height: auto;
+    background-color: @bg-color;
+    overflow: hidden;
+}
+.home-section-container {
+    min-height: 700px;
+    width: 100%;
+    padding: 80px 136px; 
+    background-color: #fff;
+}
+#layout-footer {
+    background-color: #333;
+}
+#category {
+    ul {
+        .ant-menu-item-selected {
+            background-color: rgba(255, 255, 255, .4);
+            border-style: none;
+        }
+        .ant-menu-item-active {
+            color: #fff;
+            border-bottom-color: rgba(255, 255, 255, .4);
+            color: #fff;
+        }
+    }
+}
+.ant-layout {
+    min-width: 1300px;
+}
+.ant-anchor-link-active > .ant-anchor-link-title {
+    color: @bg-color;
+}
+//新增的
+.content-container{
+    margin: 30px auto 20px;
+    width: 80%;
+    min-height: 650px;
+    height: 100%;
+    overflow: hidden;
+}
+.sidebar-left{
+    float: left;
+    overflow: hidden;
+    width: 20%;
+    min-height: 700px;
+    background-color: white;
+    padding-bottom: 10000px;
+    margin-bottom: -10000px;
+}
+.sidebar-right{
+    float: left;
+    overflow: hidden;
+    width: 80%;
+    background-color: white;
+    padding-bottom: 10000px;
+    margin-bottom: -10000px;
+}
+.introduce-container{
+    width: 100%;
+    h2{
+        margin: 20px 0 10px 0 ;
+        font-weight: bolder;
+    }
+    span{
+        color: red;
+    }
+    strong{
+      font-size: 14px;
+    }
+    p{
+        width: 80%;
+        padding: 10px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+}
+.bottom-support{
+    margin-bottom: 20px;
+}
+table,th, td
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+    padding: 10px;
+}

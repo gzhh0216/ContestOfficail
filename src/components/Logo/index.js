@@ -1,0 +1,15 @@
+import  React from 'react';
+import { hashHistory } from 'react-router';
+
+import './style.less';
+
+function Logo(props) {
+    function handleClick() {
+        hashHistory.push('/home');
+    }
+    return (
+        <img className='header-logo' src='./images/logo_latest.png' onClick={handleClick}/>
+    )
+}
+
+export default Logo;
